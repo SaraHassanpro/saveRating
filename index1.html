@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap links  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Frontend Mentor | Interactive rating component</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        .attribution a {
+            color: hsl(0, 0%, 100%);
+        }
+    </style>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card-black col-lg-4 col-md-6 col-sm-9 text-light ">
+                    <div class="logo-img x-2 my-2 pt-1">
+                        <img src="images/icon-star.svg" alt="">
+                    </div>
+                    <h5 class="card-title pt-3">How did we do?</h5>
+                    <p class="card-text pt-3 text-mute">Please let us know how we did with your support request. All feedback is
+                        appreciated
+                        to help us improve our offering!</p>
+                        <div class="choose d-flex justify-content-around">
+                            <button  class="rounded-circle  text-mute rateValue" data-valuee="1" >1</button>
+                            <button  class="rounded-circle  text-mute rateValue" data-valuee="2" >2</button>
+                            <button  class="rounded-circle  text-mute rateValue" data-valuee="3" >3</button>
+                            <button  class="rounded-circle  text-mute rateValue" data-valuee="4" >4</button>
+                            <button  class="rounded-circle  text-mute rateValue" data-valuee="5" >5</button>
+                        </div>
+                        <a href="index2.html" class="btn-submit btn  rounded-pill" onclick=" sendValue()" data-mdb-ripple-init>Submit</a>
+                </div>
+            </div>
+        </div>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">SaraHassanPro</a>.
+        </div>
+
+
+        <h2 id="demo"></h2>
+        <!-- javascript links  -->
+        <script src="javascript/jquery.slim.min.js"></script>
+        <script src="javascript/bootstrap.min.js"></script>
+        <script src="javascript/popper.min.js"></script>
+        <script type="text/javascript" src="javascript/mdb.umd.min.js"></script>
+        <script src="javascript/main.js"></script>
+    </body>
+
+</html>
